@@ -1,5 +1,4 @@
-bin
-build/
+build
 node_modules
 plugins
 *.bib
