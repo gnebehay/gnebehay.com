@@ -1,0 +1,122 @@
+
+html {
+	background: lightgray;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	max-width: 1080px;
+	background: white;
+	border: 1px solid black;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	font-family: 'Cabin', serif;
+	/*font-size: 17px;*/
+	color: rgb(68, 68, 68);
+}
+
+a:visited, a:link, a:hover, a:active {
+	color: blue;
+	text-decoration: none;
+}
+
+.menuitem {
+	font-family: sans-serif;
+	font-size: 20px;
+	border: 1px solid black;
+	border-left: none;
+	width: 200px;
+	display: inline-block;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	background: white;
+}
+
+.menuitem:link, .menuitem:hover, .menuitem:visited, .menuitem:active {
+	color: rgb(68,68,68);
+}
+
+.menuitem:hover {
+	background: black;
+	color: white;
+}
+
+.header {
+	background: gray;
+	padding: 50px 30px 30px 30px;
+}
+
+.header h1 {
+	font-size: 40px;
+	font-family: 'Cabin', serif;
+	margin: 0;
+	color: lightgray;
+}
+
+.content {
+	padding: 30px;
+}
+
+h1, h2 {
+	font-family: 'Cabin', sans-serif;
+}
+
+p {
+	/*line-height: 23px;*/
+}
+
+
+.header a img {
+	vertical-align: middle;
+}
+
+.navigation {
+	background: black;
+}
+
+.sidecolumn {
+	float: right;
+	margin-left: 30px;
+}
+
+.pubentry {
+	margin:5px;
+	padding: 10px;
+}
+.odd {
+	background: rgb(180,180,180);
+}
+
+.even {
+	background: lightgray;
+}
+
+.me {
+	font-weight: bold;
+}
+
+.prettyprint {
+	font-size: small;
+}
+
+.youtube {
+	border: 1px solid black;
+}
+
+.date {
+	float: right;
+}
+
+.news {
+	margin: 0 0 25px 0;
+}
+
+.news h2 {
+	margin: 0px;
+}
+
+.news p {
+	margin: 0px;
+}
+

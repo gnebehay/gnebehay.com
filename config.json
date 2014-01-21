@@ -1,0 +1,30 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "The Wintersmith's blog",
+    "owner": "Someone",
+    "description": "Ramblings of an immor(t)al demigod"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr",
+    "fs": "fs"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "template": "publist.jade",
+    "perPage": 99,
+    "articles": "publications",
+    "first": "publications/index.html"
+  }
+}

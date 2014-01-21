@@ -1,0 +1,23 @@
+extends layout
+block content
+	h1 Publications
+	- even = true;
+	each article in articles
+		- if (even) {
+		-  clazz = 'even';
+		- } else {
+		-    clazz = 'odd';
+		- }
+
+		div.pubentry(class=clazz)
+			span
+				- authors = article.metadata.authors.replace('Georg Nebehay', '<span class="me">Georg Nebehay</span>');
+				| !{authors}
+			br
+			a(href=article.url)
+				= article.title
+			br
+			span
+				= article.metadata.published
+			br
+		- even = !even;

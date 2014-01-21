@@ -1,0 +1,19 @@
+extends layout
+block content
+	h1
+		= page.title
+	if page.metadata.pdf
+		a(href=page.metadata.pdf): img(src="/pdficon_large.png")
+	div
+		= page.metadata.authors
+	div
+		= page.metadata.published
+	h2 Abstract
+	p
+		= page.metadata.abstract
+	h2 BibTex
+	- filename = page.filepath.full.substring(0,page.filepath.full.lastIndexOf('/')) + '/entry.bib';
+	- bib = fs.readFileSync(filename, 'utf8')
+	pre
+		= bib
+	a(href="/publications/") Back to publication list
