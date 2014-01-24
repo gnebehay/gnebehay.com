@@ -9,7 +9,7 @@ template: page.jade
 
 # About me
 
-I am a PhD candidate at the [Safety and Security Department][1] of the [Austrian Institute of Technology][2],
+I am a PhD student at the [Safety and Security Department][1] of the [Austrian Institute of Technology][2],
 where I am working together with Roman Pflugfelder, Csaba Beleznai, Branislav Micusik and David Schreiber.
 My PhD supervisor is Horst Bischof from the [Institute for Computer Graphics and Vision][3]
 at the [Graz University of Technology][4].
