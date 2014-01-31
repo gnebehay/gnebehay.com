@@ -5,8 +5,6 @@ comments: true
 date: 2013-12-25
 ---
 
-#Computer Vision Blogs
-
 While most of the interesting buzz about computer vision takes place on Twitter and Google+, there are some interesting websites
 where people post stuff related to computer vision every now and then. I'll try to keep this list updated:
 

@@ -6,8 +6,6 @@ comments: true
 code: true
 ---
 
-# CVML and MATLAB
-
 Today I fiddled around with feeding CVML data into MATLAB.
 In case you've never heard of CVML (Computer Vision Markup Language), it is an XML tag library
 that was designed to facilitate the exchange of data between researchers in computer vision.

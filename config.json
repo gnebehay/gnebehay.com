@@ -6,7 +6,8 @@
     "description": "Ramblings of an immor(t)al demigod"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator_pub.coffee",
+    "./plugins/paginator_blog.coffee"
   ],
   "require": {
     "moment": "moment",
@@ -21,10 +22,16 @@
     "smartLists": true,
     "smartypants": true
   },
-  "paginator": {
+  "paginator_pub": {
     "template": "publist.jade",
     "perPage": 99,
     "articles": "publications",
     "first": "publications/index.html"
+  },
+  "paginator_blog": {
+    "template": "blog.jade",
+    "perPage": 99,
+    "articles": "blog",
+    "first": "blog/index.html"
   }
 }
