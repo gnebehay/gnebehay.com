@@ -9,15 +9,23 @@ block content
 		-    clazz = 'odd';
 		- }
 
-		div.pubentry(class=clazz)
-			span
-				- authors = article.metadata.authors.replace('Georg Nebehay', '<span class="me">Georg Nebehay</span>');
-				| !{authors}
-			br
+		div.pubentry
 			a(href=article.url)
 				= article.title
 			br
 			span
-				= article.metadata.published
+				- authors = article.metadata.authors.replace('Georg Nebehay', '<span class="me">Georg Nebehay</span>');
+				| !{authors}
 			br
+			span
+				= article.metadata.published
+			span(class='link_panel')
+				- filename = article.filepath.full.substring(0,article.filepath.full.lastIndexOf('/')) + '/' + article.metadata.name + '.pdf';
+				- if (fs.existsSync(filename)) {
+					a(href=article.metadata.name + '/' + article.metadata.name + '.pdf'): img(src="/pdficon_small.png")
+				- }
+				- if (typeof(article.metadata.citeulike-article-id) !== 'undefined'){
+					a(href=article.metadata.name + '/' + article.metadata.name + '.bib'): img(src="/logo_bibtex.png",width='16')
+				- }
+
 		- even = !even;

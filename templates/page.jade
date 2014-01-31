@@ -22,6 +22,9 @@ block append body
 			}(document, 'script', 'facebook-jssdk'));
 
 block prepend content
+	if page.metadata.title 
+		h1
+			= page.metadata.title
 	if page.metadata.date
 		span.date= moment.utc(page.metadata.date).format('DD. MMMM YYYY')
 	!= page.html
