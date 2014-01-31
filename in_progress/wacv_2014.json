@@ -1,7 +1,0 @@
-{
-	"title": "Consensus-based Model-free Object Tracking",
-	"authors": "Georg Nebehay, Roman Pflugfelder",
-	"published": "Workshop on Applications for Computer Vision, 2014",
-	"abstract": "<img width='250' style='float:right; margin: 0 0 20px 20px' src='voting.png' alt=''/>We propose a novel keypoint-based method for long-term model-free object tracking in a combined matching-and-tracking framework.  In order to localise the object in every frame, each keypoint casts votes for the object center.  As erroneous keypoints are hard to avoid, we employ a novel consensus-based scheme for outlier detection in the voting behaviour.  To make this approach computationally feasible, we propose not to employ an accumulator space for votes, but rather to cluster votes directly in the image space.  By transforming votes based on the current keypoint constellation, we account for changes of the object in scale and rotation.  In contrast to competing approaches, we refrain from updating the appearance information, thus avoiding the danger of making errors.  The use of fast keypoint detectors and binary descriptors allows for our implementation to run in real-time.  We demonstrate experimentally on a dataset that is as large as 60 sequences that our method achieves state-of-the-art results.  Additionally, we propose a novel way of visualising results on large tracking datasets.",
-    "pdf": "wacv_2014.pdf" 
-}
