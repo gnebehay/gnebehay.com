@@ -1,12 +1,12 @@
 {
+	"name": "icdsc_2013_klu",
 	"template": "publication.jade",
 	"date": "2013-10-09",
 	"title": "Ella: Middleware for Multi-camera Surveillance in Heterogeneous Visual Sensor Networks",
 	"authors": "Bernhard Dieber, Jennifer Simonjan, Lukas Esterle, Georg Nebehay, Roman Pflugfelder, Gustavo Fernandez and Bernhard Rinner",
 	"published": "International Conference on Distributed Smart Cameras, 2013.",
 	"abstract": "Despite significant interest in the research community, the development of multi-camera applications is still quite challenging. This paper presents Ella - a dedicated publish/subscribe middleware system that facilitates distribution, component reuse and communication for heterogeneous multi-camera applications. We present the key components of this middleware system and demonstrate its applicability based on an autonomous multi-camera person tracking application. Ella is able to run on resource-limited and heterogeneous VSNs. We present performance measurements on different hardware platforms as well as operating systems.",
-	"citeulike-article-id": 12843332,
-    "pdf": "icdsc_2013_klu.pdf" 
+	"citeulike-article-id": 12843332
 }
 
 

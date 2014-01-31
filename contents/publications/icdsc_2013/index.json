@@ -1,10 +1,10 @@
 {
+	"name": "icdsc_2013",
 	"date": "2013-11-01",
 	"template": "publication.jade",
 	"title": "TLM: Tracking-Learning-Matching of Keypoints",
 	"authors": "Georg Nebehay and Roman Pflugfelder",
 	"published": "International Conference on Distributed Smart Cameras, 2013.",
 	"abstract": "In this work, we present an approach for improving the long-term association of keypoints in videos by exploiting the unlabeled parts of the video on-the-fly. Towards this end, we track keypoints from frame to frame by using a method for estimating optic flow. As long as this method is successful (according to certain criteria), we update an ensemble classifier with training data stemming from newly discovered views of the keypoint as well as from false matches. In each frame, we match candidate keypoints to the original keypoint by classifying them and re-initialise the tracking mechanism after failure. Neither a-priori knowledge about the keypoint nor a training stage is required. Our method avoids the use of an expensive sliding- window approach used by a similar method and instead embraces a highly efficient keypoint detection and matching stage, making our method suitable for the use in embedded devices. We show experimentally that our approach is able to provide both accurate and robust results on several sequences.",
-	"citeulike-article-id": 12793772,
-    "pdf": "icdsc_2013.pdf" 
+	"citeulike-article-id": 12793772
 }

@@ -1,10 +1,10 @@
 {
+	"name": "vot_2013",
 	"template": "publication.jade",
 	"date": "2013-12-01",
 	"title": "The Visual Object Tracking VOT2013 challenge results",
 	"authors": "Matej Kristan, Roman Pflugfelder, Ales Leonardis, Jiri Matas, Fatih Porikli, Luka Cehovin, Georg Nebehay, Gustavo Fernandez, Tomas Vojir et al.",
 	"published": "ICCV Workshop on the VOT2013 Visual Object Tracking Challenge, 2013.",
 	"abstract": "Visual tracking has attracted a significant attention in the last few decades. The recent surge in the number of publications on tracking-related problems have made it almost impossible to follow the developments in the field. One of the reasons is that there is a lack of commonly accepted annotated data-sets and standardized evaluation protocols that would allow objective comparison of different tracking methods. To address this issue, the Visual Object Tracking (VOT) workshop was organized in conjunction with ICCV2013. Researchers from academia as well as industry were invited to participate in the first VOT2013 challenge which aimed at single-object visual trackers that do not apply pre-learned models of object appearance (model-free). Presented here is the VOT2013 benchmark dataset for evaluation of single-object visual trackers as well as the results obtained by the trackers competing in the challenge. In contrast to related attempts in tracker benchmarking, the dataset is labeled per-frame by visual attributes that indicate occlusion, illumination change, motion change, size change and camera motion, offering a more systematic comparison of the trackers. Furthermore, we have designed an automated system for performing and evaluating the experiments. We present the evaluation protocol of the VOT2013 challenge and the results of a comparison of 27 trackers on the benchmark dataset. The dataset, the evaluation tools and the tracker rankings are publicly available from the challenge website.",
-	"citeulike-article-id": 12843777,
-    "pdf": "vot_2013.pdf" 
+	"citeulike-article-id": 12843777
 }

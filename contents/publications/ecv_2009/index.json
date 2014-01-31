@@ -1,10 +1,10 @@
 {
+	"name": "ecv_2009",
 	"date": "2009-01-01",
 	"template": "publication.jade",
 	"title": "A self-calibration method for smart video cameras",
 	"authors": "Georg Nebehay and Roman Pflugfelder",
 	"published": "ICCV Workshop on Embedded Computer Vision, 2009.",
 	"abstract": "The automatic calibration of the intrinsic camera parameters such as the focal length and the camera orientation is an important pre-requisite for many computer vision algorithms in video surveillance. Despite its importance only a few number of methods show their applicability in embedded systems. This paper shows new results of previous work done in camera self-calibration on images of the York Urban data-set. These 102 images show typical urban scenes one might expect in practice. The evaluation shows that in 52 of 102 images the proposed method achieves less than 5% relative error in the focal length at a mean computation time per image of 14.45 s on a standard PC. We believe that these results show a fair balance between accuracy and computational performance and encourage an embedded implementation on a smart camera.",
-	"citeulike-article-id": 12828916,
-    "pdf": "wecv_2009.pdf" 
+	"citeulike-article-id": 12828916
 }

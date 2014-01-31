@@ -1,11 +1,11 @@
 {
+	"name": "fpl_2011",
 	"date": "2011-01-01",
 	"template": "publication.jade",
 	"title": "Hardware-Accelerated Object Tracking",
 	"authors": "Tobias Becker, Qiang Liu, Wayne Luk, Georg Nebehay and Roman Pflugfelder",
 	"published": "FPL Workshop on Computer Vision on Low-Power Reconfigurable Architectures, 2011.",
 	"abstract": "n/a",
-	"citeulike-article-id": 11112758,
-	"pdf": "fpl_2011.pdf" 
+	"citeulike-article-id": 11112758
 }
 
