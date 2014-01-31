@@ -7,8 +7,6 @@ template: page.jade
   <img style='border: 2px solid black' width='200' src='portrait.jpg' alt='My portrait' />
 </div>
 
-# About me
-
 I am a PhD student at the [Safety and Security Department][1] of the [Austrian Institute of Technology][2],
 where I am working together with Roman Pflugfelder, Csaba Beleznai, Branislav Micusik and David Schreiber.
 My PhD supervisor is Horst Bischof from the [Institute for Computer Graphics and Vision][3]
@@ -21,8 +19,7 @@ while not requiring any manual adaptation or re-training (model-free object trac
 On this page you can find a [C++ implementation of OpenTLD](/tld),
 a tracking algorithm that sparked [quite some interest in popular media][7]
 as well as a list of all my [publications](/publications).
-There also is a [tutorial about how to feed CVML data into MATLAB](/cvml/)
-and some [links to interesting computer vision blogs](/links/).
+I also maintain a [blog](/blog).
 
 [1]: http://www.ait.ac.at/departments/safety-security/
 [2]: http://www.ait.ac.at

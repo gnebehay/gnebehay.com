@@ -1,12 +1,10 @@
 ---
-title: TLD
+title: OpenTLD
 template: tld.jade
 comments: true
 code: true
 date: 2011-11-21
 ---
-
-# OpenTLD
 
 On this page you can find a C++ implementation of OpenTLD that was originally published in MATLAB by Zdenek Kalal. OpenTLD is used for
 tracking objects in video streams. What makes this algorithm outstanding is that it does not make use of any training

@@ -44,9 +44,12 @@ a:visited, a:link, a:hover, a:active {
 	padding: 50px 30px 30px 30px;
 }
 
+h1,h2 {
+	margin: 0;
+}
+
 .header h1 {
 	font-size: 40px;
-	margin: 0;
 	color: lightgray;
 }
 
@@ -92,7 +95,6 @@ a:visited, a:link, a:hover, a:active {
 }
 
 .date {
-	float: right;
 }
 
 .news {
@@ -107,3 +109,11 @@ a:visited, a:link, a:hover, a:active {
 	margin: 0px;
 }
 
+.link_panel {
+	margin-left: 5px;
+}
+
+.link_panel a img {
+	vertical-align: middle;
+	margin-right:3px;
+}
