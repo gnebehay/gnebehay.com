@@ -12,8 +12,11 @@ block content
 	p
 		= page.metadata.abstract
 	h2 BibTex
+	- bib = ''
 	- filename = page.filepath.full.substring(0,page.filepath.full.lastIndexOf('/')) + '/entry.bib';
-	- bib = fs.readFileSync(filename, 'utf8')
+	- if (fs.existsSync(filename)) {
+	-   bib = fs.readFileSync(filename, 'utf8')
+	- }
 	pre
 		= bib
 	a(href="/publications/") Back to publication list
