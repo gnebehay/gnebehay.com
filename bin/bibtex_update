@@ -36,5 +36,5 @@ for publication in website.publications:
 		data = json.load(f)
 		if data.has_key('citeulike-article-id'):
 			article_id = data['citeulike-article-id']
-			outfile = os.path.join(website.pub_dir, publication, 'entry.bib')
+			outfile = os.path.join(website.pub_dir, publication, publication + '.bib')
 			export_article(article_id, outfile)
