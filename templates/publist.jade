@@ -10,15 +10,13 @@ block content
 		- }
 
 		div.pubentry
+			- authors = article.metadata.authors.replace('Georg Nebehay', '<span class="me">Georg Nebehay</span>');
+			| !{authors + '. '}
+			br
 			a(href=article.url)
-				= article.title
+				= article.title + '.'
 			br
-			span
-				- authors = article.metadata.authors.replace('Georg Nebehay', '<span class="me">Georg Nebehay</span>');
-				| !{authors}
-			br
-			span
-				= article.metadata.published
+			= ' ' + article.metadata.published
 			span(class='link_panel')
 				- filename = article.filepath.full.substring(0,article.filepath.full.lastIndexOf('/')) + '/' + article.metadata.name + '.pdf';
 				- if (fs.existsSync(filename)) {

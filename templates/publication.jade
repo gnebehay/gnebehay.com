@@ -4,23 +4,24 @@ block content
 		= page.title
 	p
 		= page.metadata.authors
-		br
-		= page.metadata.published
 	h2 Abstract
 	p
 		= page.metadata.abstract
-	- filename = page.filepath.full.substring(0,page.filepath.full.lastIndexOf('/')) + '/' + page.metadata.name + '.pdf';
-	- if (fs.existsSync(filename)) {
-		p
-			a(href=page.metadata.name + '.pdf')
-				img(src="/img/pdficon_large.png")
-	- }
-	h2 BibTex
+	h2 Published
+	p
+		= page.metadata.published
+		- filename = page.filepath.full.substring(0,page.filepath.full.lastIndexOf('/')) + '/' + page.metadata.name + '.pdf';
+		- if (fs.existsSync(filename)) {
+		br
+		a(href=page.metadata.name + '.pdf')
+			img(src='/img/pdficon_large.png')
+		- }
 	- bib = ''
 	- filename = page.filepath.full.substring(0,page.filepath.full.lastIndexOf('/')) + '/' + page.metadata.name + '.bib';
 	- if (fs.existsSync(filename)) {
+	h2 BibTex
 	-   bib = fs.readFileSync(filename, 'utf8')
-	- }
 	pre
 		= bib
+	- }
 	a(href="/publications/") Back to publication list
