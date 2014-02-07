@@ -13,4 +13,6 @@ block content
 				= article.title
 		span.date= moment.utc(article.date).format('DD. MMMM YYYY')
 		| !{ typogr(article.intro).typogrify() }
+		p 
+			a(href=article.url) Leave a comment
 		hr
