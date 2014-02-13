@@ -71,8 +71,7 @@ a img {
 }
 
 .pubentry {
-	margin:5px;
-	padding: 10px;
+	padding: 10px 0px 10px 0;
 }
 .odd {
 	background: rgb(180,180,180);
@@ -97,18 +96,6 @@ a img {
 .date {
 }
 
-.news {
-	margin: 0 0 25px 0;
-}
-
-.news h2 {
-	margin: 0px;
-}
-
-.news p {
-	margin: 0px;
-}
-
 .link_panel {
 	margin-left: 5px;
 }
@@ -116,4 +103,8 @@ a img {
 .link_panel a img {
 	vertical-align: middle;
 	margin-right:3px;
+}
+
+.close {
+	margin-top: 0px;
 }

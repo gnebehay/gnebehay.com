@@ -3,7 +3,6 @@ title: OpenTLD
 template: tld.jade
 comments: true
 code: true
-date: 2011-11-21
 ---
 
 On this page you can find a C++ implementation of OpenTLD that was originally published in MATLAB by Zdenek Kalal. OpenTLD is used for
