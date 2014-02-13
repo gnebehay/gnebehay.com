@@ -2,9 +2,10 @@
 	"name": "wacv_2014",
 	"template": "publication.jade",
 	"date": "2014-03-24",
-	"title": "Consensus-based Model-free Object Tracking",
+	"title": "Consensus-based Matching and Tracking of Keypoints for Object Tracking",
 	"authors": "Georg Nebehay and Roman Pflugfelder",
 	"published": "Winter Conference on Applications of Computer Vision, 2014. To appear.",
-	"abstract": "We propose a novel keypoint-based method for long-term model-free object tracking in a combined matching-and-tracking framework.  In order to localise the object in every frame, each keypoint casts votes for the object center.  As erroneous keypoints are hard to avoid, we employ a novel consensus-based scheme for outlier detection in the voting behaviour.  To make this approach computationally feasible, we propose not to employ an accumulator space for votes, but rather to cluster votes directly in the image space.  By transforming votes based on the current keypoint constellation, we account for changes of the object in scale and rotation.  In contrast to competing approaches, we refrain from updating the appearance information, thus avoiding the danger of making errors.  The use of fast keypoint detectors and binary descriptors allows for our implementation to run in real-time.  We demonstrate experimentally on a dataset that is as large as 60 sequences that our method achieves state-of-the-art results.  Additionally, we propose a novel way of visualising results on large tracking datasets.",
-	"citeulike-article-id": 12942951
+	"abstract": "We propose a novel keypoint-based method for long-term model-free object tracking in a combined matching-and-tracking framework. In order to localise the object in every frame, each keypoint casts votes for the object center. As erroneous keypoints are hard to avoid, we employ a novel consensus-based scheme for outlier detection in the voting behaviour. To make this approach computationally feasible, we propose not to employ an accumulator space for votes, but rather to cluster votes directly in the image space. By transforming votes based on the current keypoint constellation, we account for changes of the object in scale and rotation. In contrast to competing approaches, we refrain from updating the appearance information, thus avoiding the danger of making errors. The use of fast keypoint detectors and binary descriptors allows for our implementation to run in real-time. We demonstrate experimentally on a diverse dataset that is as large as 60 sequences that our method outperforms the state-of-the-art when high accuracy is required and visualise these results by employing a variant of success plots.",
+	"citeulike-article-id": 12942951,
+	"code": "https://github.com/gnebehay/CMT"
 }
