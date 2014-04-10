@@ -108,3 +108,12 @@ a img {
 .close {
 	margin-top: 0px;
 }
+
+.title {
+	text-align: center;
+}
+
+.authors {
+	text-align: center;
+	margin-top: 0px;
+}

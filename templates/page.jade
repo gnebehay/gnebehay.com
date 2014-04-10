@@ -6,8 +6,6 @@ block append head
 	if page.metadata.code
 		link(rel="stylesheet", href='http://yandex.st/highlightjs/7.5/styles/default.min.css')
 		script(src='http://yandex.st/highlightjs/7.5/highlight.min.js')
-		script.
-			hljs.initHighlightingOnLoad();
 
 block append body
 	if page.metadata.comments

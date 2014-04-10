@@ -31,5 +31,9 @@ block content
 				- if (typeof(article.metadata.url) !== 'undefined'){
 					a(href=article.metadata.url): img(src="/img/url.png",height='16', title='Project page')
 				- }
+			- if (typeof(article.metadata.note) !== 'undefined'){
+				br
+				!= article.metadata.note
+			- }
 
 		- even = !even;

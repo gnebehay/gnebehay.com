@@ -1,0 +1,9 @@
+extends page
+block append head 
+	link(href="/video-js/video-js.css",rel="stylesheet")
+	script(src="/video-js/video.js")
+	script
+		| videojs.options.flash.swf = "video-js/video-js.swf"
+block prepend content 
+	div.sidecolumn
+		a(href="https://github.com/gnebehay/CMT"): img(style="position: relative; top: -30px; right: -31px; border: 0;", src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png", alt="Fork me on GitHub")

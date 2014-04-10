@@ -1,8 +1,8 @@
 extends layout
 block content
-	h1
+	h1.title
 		= page.title
-	p.close
+	p.authors
 		= page.metadata.authors
 	h2 Abstract
 	p.close
@@ -14,7 +14,10 @@ block content
 		- if (fs.existsSync(filename)) {
 		a(href=page.metadata.name + '.pdf') PDF
 		- }
-	if page.metadata.code
+		if page.metadata.note
+			br
+			!= page.metadata.note
+		if page.metadata.code
 		h2 Code
 		p.close Download the code from our 
 			a(href=page.metadata.code) GitHub repository.
@@ -27,7 +30,7 @@ block content
 	- if (fs.existsSync(filename)) {
 	h2 BibTex
 	-   bib = fs.readFileSync(filename, 'utf8')
-	pre
+	pre.close
 		= bib
 	- }
 	a(href="/publications/") Back to publication list
