@@ -36,7 +36,7 @@ All the details can be found in [our publication](/publications/wacv_2014/wacv_2
 
 ## How to get it?
 
-You can download this project in either [zip][5] or [tar formats][6].
+You can download CMT in either [zip][5] or [tar formats][6].
 You can also browse the source code on [GitHub][2] or clone the project directly with [Git][7] by running:
 
 ```
@@ -55,7 +55,14 @@ If you use our algorithm in scientific work, please cite our publication
 }
 ```
 
+## Dataset
+
+You can [download the dataset](cmt_dataset.7z) (~1.2GB) that we employed for evaluating our algorithm,
+consisting of 60 sequences collected by [Tomas Vojir](http://cmp.felk.cvut.cz/~vojirtom/dataset/index.html).
+
 ## Results
+
+The following results were obtained using exactly the same parameter settings.
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/rlOrNkD8bKU" frameborder="0" allowfullscreen></iframe>
 <iframe width="420" height="315" src="//www.youtube.com/embed/I6DMa71srjg" frameborder="0" allowfullscreen></iframe>
