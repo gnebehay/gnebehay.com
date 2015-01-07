@@ -1,0 +1,10 @@
+--- a/drivers/bluetooth/btusb.c 2014-12-01 10:58:18.000000000 +0100
++++ b/drivers/bluetooth/btusb.c 2014-12-24 11:29:09.976881663 +0100
+@@ -107,6 +107,7 @@
+	{ USB_DEVICE(0x0b05, 0x17b5) },
+	{ USB_DEVICE(0x0b05, 0x17cb) },
+	{ USB_DEVICE(0x413c, 0x8197) },
++	{ USB_DEVICE(0x105b, 0xe065), .driver_info = BTUSB_BCM_PATCHRAM },
+ 
+	/* Foxconn - Hon Hai */
+	{ USB_VENDOR_AND_INTERFACE_INFO(0x0489, 0xff, 0x01, 0x01) },
