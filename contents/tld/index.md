@@ -5,6 +5,8 @@ comments: true
 code: true
 ---
 
+**Disclaimer: This project is now old and will no longer be updated. Please have a look at our new tracker [CMT](/cmt) instead.**
+
 On this page you can find a C++ implementation of OpenTLD that was originally published in MATLAB by Zdenek Kalal. OpenTLD is used for
 tracking objects in video streams. What makes this algorithm outstanding is that it does not make use of any training
 data. This implementation is based solely on open source libraries, meaning that you do not need any commercial
