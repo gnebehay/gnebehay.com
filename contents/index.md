@@ -21,7 +21,7 @@ a tracking algorithm that sparked [quite some interest in popular media][3]
 as well as a list of all my [publications](/publications).
 I also maintain a [blog](/blog).
 
-#Breaking News
+#News
 
 Our paper [Consensus-based Matching and Tracking of Keypoints for Object Tracking](/cmt) was awarded the Best Paper Award at the Winter Conference on Applications of Computer Vision 2014.
 [1]: http://www.cat-project.at/index.php/team/roman-pflugfelder
