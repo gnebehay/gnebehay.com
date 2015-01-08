@@ -1,5 +1,14 @@
+table.code td {
+	padding-top: 20px;
+	padding-right: 30px;
+}
+
+table.code img {
+	width: 200px;
+}
+
 code {
-    background: #f0f0f0;
+	background: #f0f0f0;
 }
 
 html {
