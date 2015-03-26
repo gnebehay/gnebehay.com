@@ -57,7 +57,7 @@ If you use our algorithm in scientific work, please cite our publication
 
 ## Dataset
 
-You can [download the dataset](cmt_dataset.7z) (~1.2GB) that we employed for evaluating our algorithm,
+You can [download the dataset][1] (~1.2GB) that we employed for evaluating our algorithm,
 consisting of 60 sequences collected by [Tomas Vojir](http://cmp.felk.cvut.cz/~vojirtom/dataset/index.html).
 
 ## Results
@@ -91,6 +91,7 @@ The following results were obtained using exactly the same parameter settings.
 <iframe width="420" height="315" src="//www.youtube.com/embed/jrahxtkmo1g" frameborder="0" allowfullscreen></iframe>
 <iframe width="560" height="315" src="//www.youtube.com/embed/YpxHEHTvGWM" frameborder="0" allowfullscreen></iframe>
 
+[1]: https://www.dropbox.com/s/oogyagnrrsi9n49/cmt_dataset.7z?dl=0
 [2]: https://github.com/gnebehay/CMT 
 [5]: https://github.com/gnebehay/CMT/zipball/master
 [6]: https://github.com/gnebehay/CMT/tarball/master
