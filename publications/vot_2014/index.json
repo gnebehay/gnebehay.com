@@ -1,0 +1,12 @@
+{
+	"name": "vot_2014",
+	"template": "publication.jade",
+	"date": "2014-09-01",
+	"title": "The Visual Object Tracking VOT2014 challenge results",
+	"authors": "M. Kristan, R. Pflugfelder, A. Leonardis, J. Matas, L. Cehovin, Georg Nebehay, T. Vojir, G. Fernandez et al.",
+	"published": "ECCV Workshop on the VOT2014 Visual Object Tracking Challenge, 2014.",
+	"abstract": "The Visual Object Tracking challenge 2014, VOT2014, aims at comparing short-term single-object visual trackers that do not apply pre-learned models of object appearance. Results of 38 trackers are presented. The number of tested trackers makes VOT 2014 the largest benchmark on short-term tracking to date. For each participating tracker, a short description is provided in the appendix.  Features of the VOT2014 challenge that go beyond its VOT2013 predecessor are introduced: (i) a new VOT2014 dataset with full annotation of targets by rotated bounding boxes and per-frame attribute, (ii) extensions of the VOT2013 evaluation methodology, (iii) a new unit for tracking speed assessment less dependent on the hardware and (iv) the VOT2014 evaluation toolkit that significantly speeds up execution of experiments. The dataset, the evaluation kit as well as the results are publicly available at the challenge website.",
+	"citeulike_id": 13446456,
+	"code": "https://github.com/vicoslab/vot-toolkit",
+	"url": "http://www.votchallenge.net"
+}

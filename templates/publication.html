@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class='title'>{{ pub.title }}</h1>
+<p class='authors'>{{ pub.authors }}</p>
+
+<h2>Abstract</h2>
+<p class='close'>{{ pub.abstract }}</p>
+
+<h2>Published In</h2>
+<p class ='close'>{{ pub.published }}
+
+    {% if pub.pdf %}
+
+    <br />
+    Download the <a href='{{ pub.pdf }}'>PDF <img src="/img/pdficon_large.png"  title='Download pdf' /></a>
+
+    {% endif %}
+
+    {% if pub.note %}
+
+    <br />
+    {{ pub.note }}
+
+    {% endif %}
+
+    {% if pub.code %}
+
+</p>
+
+<h2>Code</h2>
+<p class='close'>
+Download the code from our
+<a href='{{ pub.code }}'>GitHub repository.<img src="/img/Octocat.png" height='32' title='Download code' /></a>
+</p>
+
+{% endif %}
+
+{% if pub.project %}
+
+<h2>Project Page</h2>
+<p class='close'>
+More information is available at the 
+<a href='{{ pub.project }}'>Project page.</a>
+</p>
+
+{% endif %}
+
+{% if pub.bibtex %}
+<h2>BibTex</h2>
+<pre class='close'>
+{{ pub.bibtex }}
+</pre>
+
+{% endif %}
+
+<a href='/publications/'>Back to publication list</a>
+
+{% endblock %}

@@ -1,0 +1,11 @@
+{
+	"name": "cvww_2014",
+	"template": "publication.jade",
+	"date": "2014-03-01",
+	"title": "The VOT2013 challenge: overview and additional results",
+	"authors": "M. Kristan, R. Pflugfelder, A. Leonardis, J. Matas, F. Porikli, L. Cehovin, Georg Nebehay, G. Fernandez and T. Vojir",
+	"published": "Computer Vision Winter Workshop, 2014.",
+	"abstract": "Visual tracking has attracted a significant attention in the last few decades. The recent surge in the number of publications on tracking-related problems have made it almost impossible to follow the developments in the field. One of the reasons is that there is a lack of commonly accepted annotated data-sets and standardized evaluation protocols that would allow objective comparison of different tracking methods. To address this issue, the Visual Object Tracking (VOT) workshop was organized in conjunction with ICCV2013. Researchers from academia as well as industry were invited to participate in the first VOT2013 challenge which aimed at single-object visual trackers that do not apply pre-learned models of object appearance (model-free). In this paper we provide an overview of the VOT2013 challenge, point out its main results and document the additional previously unpublished experiments and results.",
+	"citeulike_id": 12907410
+
+}

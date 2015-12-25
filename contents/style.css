@@ -7,7 +7,10 @@ table.code img {
 	width: 200px;
 }
 
-code {
+pre code {
+    color: black;
+    display: block;
+    padding: 0.5em;
 	background: #f0f0f0;
 }
 

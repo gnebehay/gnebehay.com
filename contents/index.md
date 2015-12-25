@@ -1,14 +1,11 @@
----
 title: About me
-template: page.jade
----
 
 <div class='sidecolumn'>
   <img style='border: 2px solid black' width='200' src='portrait.jpg' alt='My portrait' />
 </div>
 
 I am a PhD student at the Safety and Security Department of the Austrian Institute of Technology,
-where I am working together with [Roman Pflugfelder][1].
+where I am working together with Roman Pflugfelder.
 My PhD supervisor is [Horst Bischof][2] from the Institute for Computer Graphics and Vision
 at the Graz University of Technology.
 
@@ -23,7 +20,9 @@ I also maintain a [blog](/blog).
 
 #News
 
-Our paper [Consensus-based Matching and Tracking of Keypoints for Object Tracking](/cmt) was awarded the Best Paper Award at the Winter Conference on Applications of Computer Vision 2014.
-[1]: http://www.cat-project.at/index.php/team/roman-pflugfelder
+Our paper [Clustering of Static-Adaptive Correspondences for Deformable Object Tracking](/publications/cvpr_2015) was accepted for CVPR.
+
+Our paper [Consensus-based Matching and Tracking of Keypoints for Object Tracking](/publications/wacv_2014) was awarded the Best Paper Award at the Winter Conference on Applications of Computer Vision 2014.
+
 [2]: http://www.icg.tugraz.at/Members/bischof
 [3]: http://www.engadget.com/2011/03/31/zdenek-kalals-object-tracking-algorithm-learns-on-the-fly-like

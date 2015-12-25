@@ -1,7 +1,4 @@
----
 title: Code
-template: page.jade
----
 
 <table class='code'>
 <tr>
@@ -9,7 +6,7 @@ template: page.jade
 <a href='/cmt'><h2>CMT</h2><img src='/cmt/voting.png' /></a>
 </td>
 <td>
-Consensus-based Matching and Tracking of Keypoints (**CMT**) is an award-winning object tracking algorithm, initially published at the Winter Conference on Applications of Computer Vision 2014,
+Consensus-based Matching and Tracking of Keypoints (<strong>CMT</strong>) is an award-winning object tracking algorithm, initially published at the Winter Conference on Applications of Computer Vision 2014,
 where it received the Best Paper Award.
 CMT is able to track a wide variety of object classes in a multitude of scenes
 without the need of adapting the algorithm to the concrete scenario in any way.

@@ -1,9 +1,6 @@
----
 title: OpenTLD
-template: tld.jade
 comments: true
 code: true
----
 
 **Disclaimer: This project is now old and will no longer be updated. Please have a look at our new tracker [CMT](/cmt) instead.**
 

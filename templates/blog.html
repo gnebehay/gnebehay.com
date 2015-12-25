@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for article in articles %}
+
+<h1>{{ article.title }}</h1>
+
+<span class='date'>{{ article.date }}</span>
+{{ article.intro }}
+<a href='{{ article.url }}'>Continue reading</a>
+<hr />
+
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,10 @@
+{
+	"name": "tr_2011",
+	"template": "publication.jade",
+	"date": "2011-03-01",
+	"title": "Evaluation of an online learning approach for robust object tracking",
+	"authors": "Georg Nebehay, Branislav Micusik, Cristina Picus and Roman Pflugfelder",
+	"published": "Technical Report AIT-DSS-TR-0279, AIT Austrian Institute of Technology, 2011.",
+	"abstract": "Current state-of-the-art methods for object tracking perform adaptive tracking-by-detection, meaning that a detector predicts the position of an object and adapts its parameters to the object's appearance at the same time. While suitable for cases when the object does not disappear from the scene, these methods tend to fail on occlusions. In this work, we build on a novel approach called Tracking-Learning-Detection (TLD) that overcomes this problem. In methods based on TLD, a detector is trained with examples found on the trajectory of a tracker that itself does not depend on the object detector. By decoupling object tracking and object detection we achieve high robustness and outperform existing adaptive tracking-by-detection methods. We show that by using simple features for object detection and by employing a cascaded approach a considerable reduction of computing time is achieved. We evaluate our approach both on existing standard single-camera datasets as well as on newly recorded sequences in multi-camera scenarios.",
+	"citeulike_id": 12986486
+}
