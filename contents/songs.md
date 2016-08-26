@@ -1,7 +1,4 @@
----
 title: Songs
-template: page.jade
----
 
 * Beatles - Blackbird
 * Bob Marley - Redemption Song
@@ -41,3 +38,6 @@ template: page.jade
 * Kino - Videli Noch
 * Eels - I Like Birds
 * Wolfgang Ambros - Die Blume aus dem Gemeindebau
+* Die Ärzte - 1/2 Lovesong
+* Nico - These Days
+* Rodriguez - Sugar Man

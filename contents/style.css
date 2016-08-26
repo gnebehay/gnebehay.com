@@ -1,3 +1,8 @@
+h1, h2, h3, h4, h5, h6, p, div {
+    font-family: 'Cabin', serif;
+		font-size: 16px;
+}
+
 table.code td {
 	padding-top: 20px;
 	padding-right: 30px;
@@ -15,19 +20,29 @@ pre code {
 }
 
 html {
-	background: lightgray;
 	padding: 0;
 	margin: 0;
 }
 
-body {
+.codepic {
+	width: 300px;
+}
+
+.codeentry {
+	margin-bottom: 50px;
+}
+
+/*body {
 	max-width: 1080px;
 	background: white;
 	border: 1px solid black;
 	margin: 0 auto 0 auto;
 	padding: 0;
-	font-family: 'Cabin', serif;
 	color: rgb(68, 68, 68);
+}*/
+
+body {
+    padding-top: 50px;
 }
 
 a:visited, a:link, a:hover, a:active {
@@ -35,7 +50,7 @@ a:visited, a:link, a:hover, a:active {
 	text-decoration: none;
 }
 
-.menuitem {
+/*.menuitem {
 	border: 1px solid black;
 	border-left: none;
 	width: 200px;
@@ -57,28 +72,28 @@ a:visited, a:link, a:hover, a:active {
 .header {
 	background: gray;
 	padding: 50px 30px 30px 30px;
-}
+}*/
 
-h1,h2 {
+/*h1,h2 {
 	margin: 0;
-}
+}*/
 
-.header h1 {
+/*.header h1 {
 	font-size: 40px;
 	color: lightgray;
-}
+}*/
 
-.content {
+/*.content {
 	padding: 30px;
-}
+}*/
 
-a img {
+/*a img {
 	vertical-align: middle;
 }
 
 .navigation {
 	background: black;
-}
+}*/
 
 .sidecolumn {
 	float: right;
@@ -120,7 +135,7 @@ a img {
 	margin-right:3px;
 }
 
-.close {
+.close-margin {
 	margin-top: 0px;
 }
 

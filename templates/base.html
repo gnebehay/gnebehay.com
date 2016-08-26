@@ -6,18 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin:400,700">
     <link rel="stylesheet" href="/style.css">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin:400,700">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script src="/script.js"></script>
     {% endblock %}
   </head>
   <body>
 
-    <header class="header">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Georg Nebehay</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/code/">Code</a></li>
+            <li><a href="/publications/">Publications</a></li>
+            <li><a href="/blog/">Blog</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- <header class="header">
       <h1>Georg Nebehay</h1>
       <a href="https://twitter.com/gnebehay" target="_blank"><img src="/img/Twitter_logo_blue.png" alt="Follow me on twitter" width="46"></a>
       <a href="https://github.com/gnebehay" target="_blank"><img src="/img/Octocat.png" width="46" alt="View my GitHub page"></a>
-      <a href="https://plus.google.com/+GeorgNebehay" target="_blank"><img src="/img/Red-signin_Short_base_44dp.png" alt="Contact me on Google+" width="46"></a>
       <script>insert_mail_address();</script>
     <noscript>Sorry, you need Javascript on to email me.</noscript>
     </header>
@@ -27,9 +50,9 @@
             href="/code/" class="menuitem">Code</a><a
             href="/publications/" class="menuitem">Publications</a><a
             href="/blog/" class="menuitem">Blog</a>
-    </div>
+    </div> -->
 
-    <div class="content">
+    <div class="container">
 
         {% block content %}
 

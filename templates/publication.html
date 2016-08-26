@@ -5,10 +5,10 @@
 <p class='authors'>{{ pub.authors }}</p>
 
 <h2>Abstract</h2>
-<p class='close'>{{ pub.abstract }}</p>
+<p class='close-margin'>{{ pub.abstract }}</p>
 
 <h2>Published In</h2>
-<p class ='close'>{{ pub.published }}
+<p class ='close-margin'>{{ pub.published }}
 
     {% if pub.pdf %}
 
@@ -29,7 +29,7 @@
 </p>
 
 <h2>Code</h2>
-<p class='close'>
+<p class='close-margin'>
 Download the code from our
 <a href='{{ pub.code }}'>GitHub repository.<img src="/img/Octocat.png" height='32' title='Download code' /></a>
 </p>
@@ -39,8 +39,8 @@ Download the code from our
 {% if pub.project %}
 
 <h2>Project Page</h2>
-<p class='close'>
-More information is available at the 
+<p class='close-margin'>
+More information is available at the
 <a href='{{ pub.project }}'>Project page.</a>
 </p>
 
@@ -48,9 +48,7 @@ More information is available at the
 
 {% if pub.bibtex %}
 <h2>BibTex</h2>
-<pre class='close'>
-{{ pub.bibtex }}
-</pre>
+<pre class='close-margin'>{{ pub.bibtex }}</pre>
 
 {% endif %}
 

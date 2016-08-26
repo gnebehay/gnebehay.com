@@ -3,7 +3,7 @@ comments: true
 code: true
 
 <div class="sidecolumn">
-<a href="https://github.com/gnebehay/CMT">
+<a href="https://github.com/gnebehay/CppMT">
 <img style="position: relative; top: -30px; right: -31px; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
 </a>
 </div>
@@ -26,7 +26,7 @@ Additionally, the original [Python research code](http://github.com/gnebehay/CMT
 ## How does it work?
 The main idea behind CMT is to break down the object of interest into tiny parts, known as keypoints.
 In each frame, we try to again find the keypoints that were already there
-in the initial selection of the object of interest. 
+in the initial selection of the object of interest.
 We do this by employing two different kind of methods.
 First, we *track* keypoints from the previous frame to the current frame by estimating
 what is known as its *optic flow*.
@@ -73,42 +73,10 @@ consisting of 60 sequences collected by [Tomas Vojir](http://cmp.felk.cvut.cz/~v
 
 ## Results
 
-<a href="#" onclick="toggle_visibility('videos'); return false;">Click here to show/hide results.</a>
-
-<div id='videos' style='display:none'>
-
-The following results were obtained using exactly the same parameter settings.
-
-<iframe width="420" height="315" src="//www.youtube.com/embed/rlOrNkD8bKU" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/I6DMa71srjg" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/bt4PBw_a2V8" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/1OcImAHAgNI" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/j-gHRIJrH7Y" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/sWEf24h0LtA" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/WMwh6vaIer4" frameborder="0" allowfullscreen></iframe>
-<iframe width="560" height="315" src="//www.youtube.com/embed/NiKrvvxTG4I" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/svrsHQZz7YU" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/Vwxp6QDYTlw" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/OgB2WGGq05Y" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/3_8p84UVnYY" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/ajWtq0gfjN4" frameborder="0" allowfullscreen></iframe>
-<iframe width="560" height="315" src="//www.youtube.com/embed/VWKcFmn0Lok" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/52uGt29JFhw" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/2B3xgd2D780" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/qqdZ2z38c_Q" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/M8j13BH_d7Q" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/ibSCGvxl2Xs" frameborder="0" allowfullscreen></iframe>
-<iframe width="560" height="315" src="//www.youtube.com/embed/3g39LznCAVQ" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/YAtzyGbcVrY" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/0xYxtsgMhLQ" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/fhr9Ae6WQk8" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/8ViYhIxAc0M" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="//www.youtube.com/embed/jrahxtkmo1g" frameborder="0" allowfullscreen></iframe>
-<iframe width="560" height="315" src="//www.youtube.com/embed/YpxHEHTvGWM" frameborder="0" allowfullscreen></iframe>
-</div>
+<a href="results.html">Click here for result videos.</a>
 
 [1]: https://www.dropbox.com/s/oogyagnrrsi9n49/cmt_dataset.7z?dl=0
-[2]: https://github.com/gnebehay/CppMT 
+[2]: https://github.com/gnebehay/CppMT
 [5]: https://github.com/gnebehay/CppMT/zipball/master
 [6]: https://github.com/gnebehay/CppMT/tarball/master
 [7]: http://git-scm.com

@@ -24,10 +24,13 @@ def export_article(article_id, outfile):
     #Remove unneccessary fields
     print 'Remove unneccessary fields'
     #My favourite python line so far.
-    html = '\n'.join([line for line in html.split('\n') if all([(entry + ' = ' not in line) for entry in delete])])
+    bibtex = '\n'.join([line for line in html.split('\n') if all([(entry + ' = ' not in line) for entry in delete])])
+
+    # Remove whitespace
+    bibtex = bibtex.strip()
 
     with open(outfile,'w') as f:
-        f.write(html)
+        f.write(bibtex)
 
 #Main
 for publication in website.publications:
