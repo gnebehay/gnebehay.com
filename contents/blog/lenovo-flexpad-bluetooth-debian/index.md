@@ -76,7 +76,7 @@ To remedy this, the following has to be done.
 
 The rest of the following instructions have to be performed inside the kernel source folder.
 
-2) Add the following line to the the file ``<kernel-source>/drivers/btusb.c``:
+2) Add the following line to the the file ``<kernel-source>/drivers/bluetooth/btusb.c``:
 
     { USB_DEVICE(0x105b, 0xe065), .driver_info = BTUSB_BCM_PATCHRAM },
 
