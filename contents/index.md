@@ -2,11 +2,6 @@ title: About me
 
 <img class='sidecolumn' style='border: 2px solid black' width='200' src='portrait.jpg' alt='My portrait' />
 
-<a href="https://twitter.com/gnebehay" target="_blank"><img src="/img/Twitter_logo_blue.png" alt="Follow me on twitter" width="46"></a>
-<a href="https://github.com/gnebehay" target="_blank"><img src="/img/Octocat.png" width="46" alt="View my GitHub page"></a>
-<script>insert_mail_address();</script>
-<noscript>Sorry, you need Javascript on to email me.</noscript>
-
 I am working as a Data Scientist at [Locatee][1] in Zurich, Switzerland on indoor localization using Wifi data.
 
 Previously, I was a PhD student at the Austrian Institute of Technology,
@@ -23,6 +18,12 @@ that allows for tracking deformable objects.
 
 During my master's program I created a [C++ implementation of Zdenek Kalal's OpenTLD](/tld),
 a tracking algorithm that sparked [quite some interest in popular media][3].
+
+<a href="https://twitter.com/gnebehay" target="_blank"><img src="/img/Twitter_logo_blue.png" alt="Follow me on twitter" width="46"></a>
+<a href="https://github.com/gnebehay" target="_blank"><img src="/img/Octocat.png" width="46" alt="View my GitHub page"></a>
+<script>insert_mail_address();</script>
+<noscript>Sorry, you need Javascript on to email me.</noscript>
+
 
 [1]: http://www.locatee.ch
 [2]: http://www.icg.tugraz.at/Members/bischof
