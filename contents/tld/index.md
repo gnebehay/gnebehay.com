@@ -34,7 +34,7 @@ $ git clone git://github.com/gnebehay/OpenTLD
 
 ## Frequently Asked Questions
 
-### Can I use OpenTLD for multi-target tracking?</h3>
+### Can I use OpenTLD for multi-target tracking?
 In principle OpenTLD is meant to track single objects only,
 but there is nothing that stops you from employing multiple instances of OpenTLD for multi-target tracking.
 It is rather difficult to implement multi-target tracking in OpenTLD itself,

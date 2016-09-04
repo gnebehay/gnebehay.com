@@ -13,22 +13,22 @@
         <span class='link_panel'>
             {% if pub.pdf %}
             <a href='{{ pub.pdf }}'>
-                <img src='/img/pdficon_small.png' title='Download pdf' />
+                <img src='/img/pdficon_large.png' height='16' alt='PDF logo' title='Download pdf' />
             </a>
             {% endif %}
             {% if pub.bibfile %}
             <a href='{{ pub.bibfile }}'>
-                <img src='/img/logo_bibtex.png' width='16' title='Download bib file' />
+                <img src='/img/logo_bibtex.png' width='16' alt='BibTex logo' title='Download bib file' />
             </a>
             {% endif %}
             {% if pub.code %}
                 <a href='{{ pub.code }}'>
-                    <img src='/img/Octocat.png' height='16' title='Download code' />
+                    <img src='/img/Octocat-64.png' height='16' alt='GitHub logo' title='Download code' />
                 </a>
             {% endif %}
             {% if pub.project %}
             <a href='{{ pub.project }}'>
-                <img src='/img/url.png' height='16' title='Project page' />
+                <img src='/img/url-64.png' height='16' alt='URL logo' title='Project page' />
             </a>
             {% endif %}
             {% if pub.note %}

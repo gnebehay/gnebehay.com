@@ -61,7 +61,7 @@ def execute(jimd):
                 with open(bib_file) as f:
                     p.bibtex = f.read()
 
-            content = jimd.env.get_template(PUB_TPL).render(pub = p)
+            content = jimd.env.get_template(PUB_TPL).render(pub=p, title=p.title)
 
             dst_file = join(p_dir, 'index.html')
 
@@ -72,7 +72,7 @@ def execute(jimd):
 
     publications = sorted(publications, key = lambda p: p.date, reverse = True)
 
-    content = jimd.env.get_template(PUBLIST_TPL).render(publications = publications)
+    content = jimd.env.get_template(PUBLIST_TPL).render(publications=publications, title='Publications')
 
     dst_file = join(output_dir, 'index.html')
 

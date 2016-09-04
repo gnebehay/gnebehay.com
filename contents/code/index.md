@@ -1,7 +1,7 @@
 title: Code
 
 <div class='row codeentry'>
-<div class='col-md-4'><a href='/cmt'><img class='codepic' src='/cmt/voting.png'/></a></div>
+<div class='col-md-4'><a href='/cmt'><img class='codepic' src='/cmt/voting.png' alt='Voting in CMT'/></a></div>
 <div class='col-md-8'>
 <h2>CMT</h2>
 Consensus-based Matching and Tracking of Keypoints (<strong>CMT</strong>) is an award-winning object tracking algorithm, initially published at the Winter Conference on Applications of Computer Vision 2014,
@@ -16,7 +16,7 @@ Our Python and C++ implementations are freely available under the BSD license, m
 </div>
 
 <div class='row codeentry'>
-<div class='col-md-4'><a href='/tld'><img class='codepic' src='/tld/mf-00001.png' /></a></div>
+<div class='col-md-4'><a href='/tld'><img class='codepic' src='/tld/mf-00001.png' alt='TLD'/></a></div>
 <div class='col-md-8'>
 <h2>OpenTLD</h2>
 On this page you can find a C++ implementation of OpenTLD that was originally published in MATLAB by Zdenek Kalal. OpenTLD is used for
@@ -27,7 +27,7 @@ products to compile or run it.
 </div>
 
 <div class='row codeentry'>
-<div class='col-md-4'><a href='http://www.votchallenge.net'><img class='codepic' width='200px' src='/vot/vot.png' /></a></div>
+<div class='col-md-4'><a href='http://www.votchallenge.net'><img class='codepic' width='200' src='/vot/vot.png' alt='VOT'/></a></div>
 <div class='col-md-8'>
 <h2>VOT Toolkit</h2>
 An ever-recurring question in tracking concerns finding the best tracker for a given task.
