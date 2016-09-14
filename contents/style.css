@@ -1,6 +1,14 @@
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+    padding-top: 50px;
+}
+
 h1, h2, h3, h4, h5, h6, p, div {
     font-family: 'Cabin', serif;
-		font-size: 16px;
 }
 
 table.code td {
@@ -12,16 +20,8 @@ table.code img {
 	width: 200px;
 }
 
-pre code {
-    color: black;
-    display: block;
-    padding: 0.5em;
-	background: #f0f0f0;
-}
-
-html {
-	padding: 0;
-	margin: 0;
+pre {
+    padding: 0;
 }
 
 .codepic {
@@ -32,68 +32,6 @@ html {
 	margin-bottom: 50px;
 }
 
-/*body {
-	max-width: 1080px;
-	background: white;
-	border: 1px solid black;
-	margin: 0 auto 0 auto;
-	padding: 0;
-	color: rgb(68, 68, 68);
-}*/
-
-body {
-    padding-top: 50px;
-}
-
-a:visited, a:link, a:hover, a:active {
-	color: blue;
-	text-decoration: none;
-}
-
-/*.menuitem {
-	border: 1px solid black;
-	border-left: none;
-	width: 200px;
-	display: inline-block;
-	padding: 10px 0 10px 0;
-	text-align: center;
-	background: white;
-}
-
-.menuitem:link, .menuitem:hover, .menuitem:visited, .menuitem:active {
-	color: rgb(68,68,68);
-}
-
-.menuitem:hover {
-	background: black;
-	color: white;
-}
-
-.header {
-	background: gray;
-	padding: 50px 30px 30px 30px;
-}*/
-
-/*h1,h2 {
-	margin: 0;
-}*/
-
-/*.header h1 {
-	font-size: 40px;
-	color: lightgray;
-}*/
-
-/*.content {
-	padding: 30px;
-}*/
-
-/*a img {
-	vertical-align: middle;
-}
-
-.navigation {
-	background: black;
-}*/
 
 .sidecolumn {
 	float: right;
@@ -103,36 +41,13 @@ a:visited, a:link, a:hover, a:active {
 .pubentry {
 	padding: 10px 0px 10px 0;
 }
-.odd {
-	background: rgb(180,180,180);
-}
-
-.even {
-	background: lightgray;
-}
 
 .me {
 	font-weight: bold;
 }
 
-.prettyprint {
-	font-size: small;
-}
-
 .youtube {
 	border: 1px solid black;
-}
-
-.date {
-}
-
-.link_panel {
-	margin-left: 5px;
-}
-
-.link_panel a img {
-	vertical-align: middle;
-	margin-right:3px;
 }
 
 .close-margin {
