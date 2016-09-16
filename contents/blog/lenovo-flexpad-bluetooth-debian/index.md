@@ -1,6 +1,7 @@
 title: Getting bluetooth to work on a Lenovo Ideapad Flex 2 running Debian Jessie
 date: 2014-12-31
 comments: true
+code: true
 
 The Lenovo Ideapad Flex 2 actually works pretty nicely out of the box in Debian Jessie with the exception of wifi and bluetooth.
 Wifi can be easily fixed by adding the non-free reposityory and installing the package ``broadcom-sta-dkms``.
