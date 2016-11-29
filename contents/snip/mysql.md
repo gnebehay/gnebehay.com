@@ -1,13 +1,25 @@
 # MySQL
 
-## Grant all privileges on database to user
+## Grant all privileges
 ```
-GRANT ALL PRIVILEGES ON mydb.* TO 'myuser'@'%' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON database.* TO 'user'@'%' WITH GRANT OPTION;
 ```
 
-## Change password of user
+## Change password
 ```
-SET PASSWORD FOR 'jeffrey'@'localhost' = PASSWORD('cleartext password');
+SET PASSWORD FOR 'user'@'localhost' = PASSWORD('password');
 FLUSH PRIVILEGES;
 ```
+
+## Export to csv
+```
+SELECT * FROM table INTO OUTFILE '/tmp/export.csv' FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
+```
+
+## Export headers
+```
+SELECT GROUP_CONCAT(COLUMN_NAME) from INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'table' and TABLE_SCHEMA='database' order BY ORDINAL_POSITION
+```
+
+
 
