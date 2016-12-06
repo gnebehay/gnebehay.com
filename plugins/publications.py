@@ -12,7 +12,7 @@ PUBLIST_TPL = 'publist.html'
 PUB_TPL = 'publication.html'
 
 def execute(jimd):
-    PUB_DIR = join(jimd.PROJ_DIR, 'publications')
+    PUB_DIR = join(jimd.PRJ_DIR, 'publications')
     pubs = os.listdir(PUB_DIR)
 
     output_dir = join(jimd.OUT_DIR, 'publications')
@@ -50,12 +50,12 @@ def execute(jimd):
             pdf_file = os.path.join(PUB_DIR, pub, pub + '.pdf')
             if exists(pdf_file):
                 shutil.copy(pdf_file, pdf_file.replace(PUB_DIR, output_dir))
-                p.pdf = pdf_file.replace(jimd.PROJ_DIR, '')
+                p.pdf = pdf_file.replace(jimd.PRJ_DIR, '')
 
             bib_file = os.path.join(PUB_DIR, pub, pub + '.bib')
             if exists(bib_file):
                 shutil.copy(bib_file, bib_file.replace(PUB_DIR, output_dir))
-                p.bibfile = bib_file.replace(jimd.PROJ_DIR, '')
+                p.bibfile = bib_file.replace(jimd.PRJ_DIR, '')
 
                 #Read the file
                 with open(bib_file) as f:

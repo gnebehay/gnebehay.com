@@ -1,3 +1,6 @@
+code: true
+lang: sql
+
 # MySQL
 
 ## Grant all privileges

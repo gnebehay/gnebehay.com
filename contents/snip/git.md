@@ -1,6 +1,8 @@
+code: true
+
 # Git
 
-## log diff between branches
-```{.git}
+## log diff
+```
 git log A..B
 ```

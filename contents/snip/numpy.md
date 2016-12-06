@@ -1,3 +1,6 @@
+code: true
+lang: python
+
 # NumPy
 
 ## Sort array in descending/reverse order
