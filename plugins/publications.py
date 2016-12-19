@@ -2,6 +2,9 @@ import os
 import os.path
 import shutil
 import json
+import urllib
+
+from urllib.request import urlopen
 
 from os.path import exists, join
 
@@ -11,7 +14,59 @@ class publication:
 PUBLIST_TPL = 'publist.html'
 PUB_TPL = 'publication.html'
 
-def execute(jimd):
+def configure(jimd, config):
+
+    pub_config = config['publications']
+
+    if 'PDF_DIR' in pub_config:
+        jimd.PDF_DIR = pub_config['PDF_DIR']
+    else:
+        print('WARNING: PDF_DIR not set, unable to retrieve publications')
+
+def export_article(article_id, outfile):
+
+    delete = ['abstract', 'citeulike-article-id', 'posted-at', 'priority', 'citeulike-linkout-0',
+              'citeulike-linkout-1']
+
+    site = 'http://www.citeulike.org/bibtex/user/gnebehay/article/' + str(article_id)
+
+    hdr = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) ' +
+           'Chrome/23.0.1271.64 Safari/537.11',
+           'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+           'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
+           'Accept-Encoding': 'none',
+           'Accept-Language': 'en-US,en;q=0.8',
+           'Connection': 'keep-alive'}
+    req = urllib.request.Request(site, headers=hdr)
+    response = urlopen(req)
+    html = response.read().decode()
+
+    # Remove unneccessary fields
+    print('Remove unneccessary fields')
+
+    # My favourite python line so far.
+    bibtex = '\n'.join([line for line in html.split('\n') if all([(entry + ' = ' not in line)
+                        for entry in delete])])
+
+    # Remove whitespace
+    bibtex = bibtex.strip()
+
+    with open(outfile, 'w') as f:
+        f.write(bibtex)
+
+def fetch(jimd):
+    pub_dir = os.path.join(jimd.PRJ_DIR, 'publications')
+    publications = os.listdir(pub_dir)
+    for publication in publications:
+        with open(os.path.join(pub_dir, publication, 'index.json'), 'r') as f:
+            data = json.load(f)
+            if 'citeulike_id' in data.keys():
+                article_id = data['citeulike_id']
+                outfile = os.path.join(pub_dir, publication, publication + '.bib')
+                export_article(article_id, outfile)
+
+
+def build(jimd):
     PUB_DIR = join(jimd.PRJ_DIR, 'publications')
     pubs = os.listdir(PUB_DIR)
 
@@ -47,17 +102,17 @@ def execute(jimd):
             if not exists(p_dir):
                 os.mkdir(p_dir)
 
-            pdf_file = os.path.join(PUB_DIR, pub, pub + '.pdf')
+            pdf_file = os.path.join(jimd.PDF_DIR, pub + '.pdf')
             if exists(pdf_file):
-                shutil.copy(pdf_file, pdf_file.replace(PUB_DIR, output_dir))
-                p.pdf = pdf_file.replace(jimd.PRJ_DIR, '')
+                shutil.copy(pdf_file, p_dir)
+                p.pdf = os.path.join(pub, pub + '.pdf')
 
             bib_file = os.path.join(PUB_DIR, pub, pub + '.bib')
             if exists(bib_file):
                 shutil.copy(bib_file, bib_file.replace(PUB_DIR, output_dir))
                 p.bibfile = bib_file.replace(jimd.PRJ_DIR, '')
 
-                #Read the file
+                # Read the file
                 with open(bib_file) as f:
                     p.bibtex = f.read()
 
@@ -70,7 +125,7 @@ def execute(jimd):
 
             publications.append(p)
 
-    publications = sorted(publications, key = lambda p: p.date, reverse = True)
+    publications = sorted(publications, key=lambda p: p.date, reverse=True)
 
     content = jimd.env.get_template(PUBLIST_TPL).render(publications=publications, title='Publications')
 

@@ -62,3 +62,9 @@ pre {
 	text-align: center;
 	margin-top: 0px;
 }
+
+.snip-logo {
+	display: block;
+	width: 200px;
+	margin-bottom: 10px;
+}

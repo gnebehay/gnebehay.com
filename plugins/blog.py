@@ -6,7 +6,7 @@ from os.path import join
 class article:
     pass
 
-def execute(jimd):
+def build(jimd):
     BLOG_DIR = join(jimd.CNT_DIR, 'blog')
     articles = os.listdir(BLOG_DIR)
 
