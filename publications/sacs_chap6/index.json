@@ -1,0 +1,8 @@
+{
+    "date": "2016-07-01",
+    "title": "Common Techniques for Self-awareness and Self-expression",
+    "authors": "S. Wang, Georg Nebehay, L. Esterle, K. Nymoen and L. L. Minku",
+    "published": "Self-aware Computing Systems (Book Chapter), 2016.",
+    "abstract": "As explained in Chapter 5, self-aware and self-expressive systems can be designed based on a number of patterns and primitives. In this chapter, we discuss issues to be considered when developing such systems, especially when going through phases 3 (selecting the best pattern) and 5 (determining primitives and alternatives), and possibly also phase 7 (score alternative primitives) of the methodology for designing and implementing self-aware and self-expressive systems described in Section 5.4. Specifically, we explain several features which may be present in selfaware and self-expressive systems, namely adaptivity, robustness, multi-objectivity and decentralisation. We discuss their implications in terms of knowledge representation and modelling choices, including potential trade-offs among different choices. Knowledge representation is interpreted loosely, referring to any structure used to store knowledge, whereas knowledge modelling is considered to be the process used to create and update such knowledge structures. The discussion raises awareness of general issues to be considered and carefully reflected upon when developing selfaware and self-expressive systems.",
+    "citeulike_id": 14240100
+}

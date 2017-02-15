@@ -1,6 +1,4 @@
 {
-    "name": "cvpr_2015",
-    "template": "publication.jade",
     "date": "2015-04-01",
     "title": "Clustering of Static-Adaptive Correspondences for Deformable Object Tracking",
     "authors": "Georg Nebehay and Roman Pflugfelder",

@@ -1,6 +1,4 @@
 {
-	"name": "master_thesis",
-	"template": "publication.jade",
 	"date": "2012-01-01",
 	"title": "Robust Object Tracking Based on Tracking-Learning-Detection",
 	"authors": "Georg Nebehay",

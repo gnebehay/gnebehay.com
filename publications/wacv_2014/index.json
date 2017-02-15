@@ -1,6 +1,4 @@
 {
-	"name": "wacv_2014",
-	"template": "publication.jade",
 	"date": "2014-03-24",
 	"title": "Consensus-based Matching and Tracking of Keypoints for Object Tracking",
 	"authors": "Georg Nebehay and Roman Pflugfelder",

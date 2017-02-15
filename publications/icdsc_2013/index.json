@@ -1,7 +1,5 @@
 {
-	"name": "icdsc_2013",
 	"date": "2013-11-01",
-	"template": "publication.jade",
 	"title": "TLM: Tracking-Learning-Matching of Keypoints",
 	"authors": "Georg Nebehay and Roman Pflugfelder",
 	"published": "International Conference on Distributed Smart Cameras, 2013.",

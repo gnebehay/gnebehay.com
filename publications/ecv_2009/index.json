@@ -1,7 +1,5 @@
 {
-	"name": "ecv_2009",
 	"date": "2009-01-01",
-	"template": "publication.jade",
 	"title": "A self-calibration method for smart video cameras",
 	"authors": "Georg Nebehay and Roman Pflugfelder",
 	"published": "ICCV Workshop on Embedded Computer Vision, 2009.",

@@ -1,6 +1,4 @@
 {
-	"name": "phd_thesis",
-	"template": "publication.jade",
 	"date": "2016-09-01",
 	"title": "A Deformable Part Model for One-Shot Object Tracking",
 	"authors": "Georg Nebehay",

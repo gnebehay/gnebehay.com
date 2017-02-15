@@ -1,6 +1,4 @@
 {
-	"name": "vot_2013",
-	"template": "publication.jade",
 	"date": "2013-12-01",
 	"title": "The Visual Object Tracking VOT2013 challenge results",
 	"authors": "M. Kristan, R. Pflugfelder, A. Leonardis, J. Matas, F. Porikli, L. Cehovin, Georg Nebehay, G. Fernandez, T. Vojir et al.",

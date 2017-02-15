@@ -1,6 +1,4 @@
 {
-	"name": "icdsc_2013_klu",
-	"template": "publication.jade",
 	"date": "2013-10-09",
 	"title": "Ella: Middleware for Multi-camera Surveillance in Heterogeneous Visual Sensor Networks",
 	"authors": "B. Dieber, J. Simonjan, L. Esterle, Georg Nebehay, R. Pflugfelder, G. Fernandez and B. Rinner",
