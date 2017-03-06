@@ -20,6 +20,10 @@ def configure(jimd, config):
 
     if 'PDF_DIR' in pub_config:
         jimd.PDF_DIR = pub_config['PDF_DIR']
+
+        if not os.path.exists(jimd.PDF_DIR):
+            print('WARNING: PDF_DIR {} does not exist')
+
     else:
         print('WARNING: PDF_DIR not set, unable to retrieve publications')
 
