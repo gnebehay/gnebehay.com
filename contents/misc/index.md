@@ -13,3 +13,5 @@
 <a href='git.html'>Git</a>
 
 <a href='hydrogen.html'>Hydrogen</a>
+
+<a href='latex.html'>Latex</a>
