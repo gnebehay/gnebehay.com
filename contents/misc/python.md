@@ -23,3 +23,11 @@ parser.add_argument('-v', '--visualize', action='store_true')
 ```
 args = parser.parse_args()
 ```
+
+# Environments
+
+* pyenv: multiple python versions
+* venv: module for creating virtual package environments
+* pyvenv: virtual package environments based on venv, part of Python >= 3.4
+* virtualenv: virtual package environment, on PyPi
+
