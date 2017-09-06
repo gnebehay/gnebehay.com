@@ -5,8 +5,8 @@ title: Zurich Soccer/Football Meetup
   // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
   // This code is freeware provided these four comment lines remain intact
   // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-  coded = "JKKt5://UJbK.vJbK5btt.Us0/pbNh1EE0SK0UUj2FvSKSYS"
-  key = "DinEfsRcNG1p6CXPgyWoYx0e4dlHIJ3BZkv7mjAVFQbh8KTqw9Sz25rUauLtOM"
+  coded = "PBBC8://mPDB.gPDB8DCC.mAl/zDrHYRRlUdKZZTLogUBUiU"
+  key = "9RcVk12zrChbLGgy3QSUKD0pf5FEw6JIjNMalXxqBdAve8HY7OmiWntToZPsu4"
   shift=coded.length
   link=""
   for (i=0; i<coded.length; i++) {
