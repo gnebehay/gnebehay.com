@@ -15,3 +15,10 @@
 <a href='hydrogen.html'>Hydrogen</a>
 
 <a href='latex.html'>Latex</a>
+
+# Linux Hardware Problems
+<a href='lenovo-flexpad-bluetooth-debian/'>Lenovo Flexpad</a>
+
+# Other
+<a href='cvml/'>CVML and MATLAB</a>
+

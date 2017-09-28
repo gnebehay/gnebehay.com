@@ -5,7 +5,7 @@
 
 {% for pub in publications %}
     <div class='pubentry'>
-        {{ pub.authors|replace('Georg Nebehay', '<span class="me">Georg Nebehay</span>') }}
+        {{ pub.authors | replace('Georg Nebehay', '<span class="me">Georg Nebehay</span>') | safe }}
         <br />
         <a href='{{ pub.url }}'>{{ pub.title }}</a>
         <br />
