@@ -25,5 +25,5 @@
 
 [Football](/football.html)
 
-[Pub quizzes](/pubquiz.html)
+[Pub quizzes](pubquiz.html)
 
