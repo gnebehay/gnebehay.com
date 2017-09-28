@@ -7,6 +7,7 @@ title: Songs
 * Johnny Cash - Hurt
 * Led Zeppelin - Stairway to Heaven
 * Metallica - Nothing Else Matters
+* Nico - These Days
 * Nirvana - Come as You Are
 * Oasis - Wonderwall
 * Pink Floyd - Wish You Were Here
@@ -15,8 +16,7 @@ title: Songs
 * Sublime - Santeria
 * The Who - Behind Blue Eyes
 * U2 - Sunday Bloody Sunday
-
-
+---
 * Bee Gees - How Deep Is Your Love?
 * 4 Non Blondes - What's Up?
 * Ärzte - Westerland
@@ -31,13 +31,13 @@ title: Songs
 * Sublime - What I Got
 * Tocotronic - Let There Be Rock
 * Wir Sind Helden - Denkmal
-
-
+---
 * Ronan Keating - When You Say Nothing at All
 * Travis - Hit Me Baby One More Time
 * Kino - Videli Noch
 * Eels - I Like Birds
 * Wolfgang Ambros - Die Blume aus dem Gemeindebau
 * Die Ärzte - 1/2 Lovesong
-* Nico - These Days
 * Rodriguez - Sugar Man
+* Eels - That Look You Give That Guy
+

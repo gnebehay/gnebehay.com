@@ -13,6 +13,11 @@ Ctrl+Enter
 Ctrl+Alt+Enter
 ```
 
+## Run all cells
+```
+Ctrl+Alt+Shift+Enter
+```
+
 ## Clear results
 ```
 Ctrl+Shift+Backspace

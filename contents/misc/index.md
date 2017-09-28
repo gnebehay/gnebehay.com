@@ -1,24 +1,29 @@
 # Snippets
 
-<a href='python.html'>Python</a>
+[Python](python.html')
 
-<a href='numpy.html'>Numpy</>
+[Numpy](numpy.html)
 
-<a href='pandas.html'>Pandas</>
+[Pandas](pandas.html)
 
-<a href='matplotlib.html'>Matplotlib</a>
+[Matplotlib](matplotlib.html)
 
-<a href='mysql.html'>MySQL</a>
+[MySQL](mysql.html)
 
-<a href='git.html'>Git</a>
+[Git](git.html)
 
-<a href='hydrogen.html'>Hydrogen</a>
+[Hydrogen](hydrogen.html)
 
-<a href='latex.html'>Latex</a>
+[Latex](latex.html)
+
+[Bash](bash.html)
 
 # Linux Hardware Problems
-<a href='lenovo-flexpad-bluetooth-debian/'>Lenovo Flexpad</a>
+[Lenovo Flexpad](lenovo-flexpad-bluetooth-debian/)
 
-# Other
-<a href='cvml/'>CVML and MATLAB</a>
+# Zurich
+
+[Football](/football.html)
+
+[Pub quizzes](/pubquiz.html)
 
