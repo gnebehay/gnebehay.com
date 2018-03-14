@@ -1,6 +1,6 @@
 # Snippets
 
-[Python](python.html')
+[Python](python.html)
 
 [Numpy](numpy.html)
 
