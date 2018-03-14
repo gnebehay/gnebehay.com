@@ -12,3 +12,7 @@
 
 [Cooper's: Occasional](http://coopers-pub.ch/events)
 
+<div class="map-responsive">
+<iframe src="https://www.google.com/maps/d/embed?mid=10kdiNJjrm8Hn_2fFfzvv5vFHCaI"></iframe>
+</div>
+
