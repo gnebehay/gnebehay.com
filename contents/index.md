@@ -26,7 +26,7 @@ function insert_mail_address() {
 
 <img class='sidecolumn' style='border: 2px solid black' width='200' src='portrait.jpg' alt='My portrait' />
 
-I am working as a Data Scientist at [Locatee][1] in Zurich, Switzerland on indoor localization using Wifi data.
+My current position is Head of Development at [Locatee][1] in Zurich, Switzerland, where I started working as a data scientist on indoor localization using Wifi data.
 
 Previously, I was a PhD student at the Austrian Institute of Technology,
 where I worked together with Roman Pflugfelder.
