@@ -18,12 +18,11 @@
 
 [Bash](bash.html)
 
-# Linux Hardware Problems
+# Linux
 [Lenovo Flexpad](lenovo-flexpad-bluetooth-debian/)
+[Xorg configuration on Debian Buster](xorg-configuration-debian-buster.html)
 
 # Zurich
-
-[Football](/football.html)
 
 [Pub quizzes](pubquiz.html)
 
