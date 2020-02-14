@@ -25,7 +25,7 @@
 
 # Hosting
 
-[Reverse DNS loopup for spam filtering](reverse-dns-spam-filter.html)
+[Reverse DNS lookup for spam filtering](reverse-dns-spam-filter.html)
 
 # Zurich
 
