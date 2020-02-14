@@ -23,6 +23,10 @@
 
 [Xorg configuration on Debian Buster](xorg-configuration-debian-buster.html)
 
+# Hosting
+
+[Reverse DNS loopup for spam filtering](reverse-dns-spam-filter.html)
+
 # Zurich
 
 [Pub quizzes](pubquiz.html)
