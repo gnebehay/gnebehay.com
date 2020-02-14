@@ -16,22 +16,6 @@ This is what happens.
 - Of course, when I configure reverse DNS for my server I can just type in anything, for example tralala.com
 - To complete the checking loop, a forward DNS lookup needs to be performed and that lookup should resolve back to the original IP address.
 
-Prior to 2018-03-17, the following settings were in place:
+For a while I was somehow stubbornly believing that the reverse DNS entry should be set in you domain provider, but in fact you have to change it in your hosting provider.
 
-DNS entry for schosel.net: 77.37.11.150 
-DNS entry for nebehay.com: 77.37.11.150 
-reverse lookup of this IP address: schosel.net
-
-On 2018-03-17 the DNS entry for schosel.net was changed to 51.15.89.77, while nebehay.com was left as is.
-The reverse lookup of 77.37.11.150 was left unchanged and no reverse lookup was configured for the new IP address.
-We were now sending mail from both the old address and the new address, but neither of those servers would actually pass the DNS reverse lookup spam check:
-
-mail from 77.37.11.150 -> reverse lookup is schosel.net -> lookup of schosel.net is 51.15.89.77 -> fail
-mail from 51.15.89.77 -> reverse lookup is x.y.z.scaleway.com -> No dns entry available -> fail
-
-I was somehow stubbornly believing that the reverse DNS entry should be set in you domain provider, but in fact you have to change it in your hosting provider.
-
-The actual solution was super simple, one just has to set the proper lookups. This also works without problems for sending mail from different addresses, because the addresses themselves are never involved in the checking. Maybe there are other checks that do that (e.g. SPF?), but for sure it is not part of the reverse DNS check.
-
-
-
+The lookup check works without problems for sending mail from different addresses, because the addresses themselves are never involved in the checking. Maybe there are other checks that do that (e.g. SPF?), but for sure it is not part of the reverse DNS check.
