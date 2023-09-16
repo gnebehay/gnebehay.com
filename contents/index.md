@@ -26,7 +26,9 @@ function insert_mail_address() {
 
 <img class='sidecolumn' style='border: 2px solid black' width='200' src='portrait.jpg' alt='My portrait' />
 
-I am a lead engineer at [Locatee][1] in Zurich, Switzerland, where I started working as a data scientist on indoor localization using Wifi data.
+I am a Machine Learning Lead at noimos in Zurich, Switzerland where I am working on automated insurance claim handling.
+
+Prior to that I was the Head of Engineering and Data at [Locatee][1], where I started working as a data scientist on indoor localization using Wifi data.
 
 Previously, I was a PhD student at the Austrian Institute of Technology,
 where I worked together with Roman Pflugfelder.
@@ -43,7 +45,6 @@ that allows for tracking deformable objects.
 During my master's program I created a [C++ implementation of Zdenek Kalal's OpenTLD](/tld),
 a tracking algorithm that sparked [quite some interest in popular media][3].
 
-<a href="https://twitter.com/gnebehay" target="_blank"><img src="/img/Twitter_logo_blue.png" alt="Follow me on twitter" width="46"></a>
 <a href="https://github.com/gnebehay" target="_blank"><img src="/img/Octocat.png" width="46" alt="View my GitHub page"></a>
 <script>insert_mail_address();</script>
 <noscript>Sorry, you need Javascript on to email me.</noscript>
